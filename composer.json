@@ -1,0 +1,32 @@
+{
+    "name": "pikselin/silverstripe-elemental-pdf-embed",
+    "type": "silverstripe-vendormodule",
+    "description": "Allows you to embed PDF flipbooks (and other embedded code) inside an elemental block.",
+    "keywords": [
+        "silverstripe",
+        "admin"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Pikselin dev",
+            "homepage": "https://github.com/Pikselin",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "dnadesign/silverstripe-elemental": "^4|^5"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "autoload": {
+        "psr-4": {
+            "Pikselin\\Elemental\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
