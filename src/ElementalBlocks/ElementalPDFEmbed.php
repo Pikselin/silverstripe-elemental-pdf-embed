@@ -18,7 +18,7 @@ class ElementalPDFEmbed extends BaseElement
     ];
     private static $has_one = [];
     private static $singular_name = 'PDF embed block';
-    private static $icon = 'font-icon-chart-line';
+    private static $icon = 'font-icon-book-open';
     private static $inline_editable = true;
     private static $table_name = 'ElementalPDFEmbedBlock';
 
